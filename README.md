@@ -1,11 +1,9 @@
 # yorick
 ### infinite test
 
-yorick runs all of your tests in parallel. Yes, all of them -- if you have 10,000 tests, he will run them across 10,000 processes.
+yorick runs all of your test files in parallel in the cloud. Yes, all of them -- if you have 1000 test files, he will run them across 1000 processesors.
 
-yorick does this with almost no configuration.
-
-he will give you 2 hours of test-running time per month, for free. Subscription tiers for more time are on their way.
+he will give you 40 minutes of test-running time across as many as 100 processesors per week, for free. Subscription tiers for more time and higher parallelization are on the way.
 
 ## directions
 
@@ -14,16 +12,16 @@ he will give you 2 hours of test-running time per month, for free. Subscription 
 ```
 FROM node
 WORKDIR /usr/src/app
-COPY . ./
+COPY . .
 RUN npm install
-RUN npx yorick --match '**/*.test.js' -- npm run jest
+RUN npx yorick --match '**/*.test.js' --command 'npm run test'
 ```
 
 This configuration sets yorick to run `npm run jest <filepath>` on every file that matches `**/*.test.js`. he will print all of the concatenated successes and/or failures to the console, depending on process exit codes.
 
 2. run `npx yorick`
 
-he this fails due to permissions, run `sudo npx yorick`. (Yes, yorick runs `docker` commands for you.)
+If he this fails due to permissions, run `sudo npx yorick`. (yorick uses `docker`, which may require `sudo` depending on your setup.)
 
 ## depends on
 
