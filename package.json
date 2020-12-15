@@ -1,6 +1,6 @@
 {
   "name": "yorick",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "infinite test parallelizer",
   "main": "index.js",
   "scripts": {
