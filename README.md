@@ -26,3 +26,11 @@ If he this fails due to permissions, run `sudo npx yorick`. (yorick uses `docker
 ## depends on
 
 node, docker
+
+## to note
+
+yorick runs your tests on a read-only file system.
+yorick will not run test images over 10Gb
+yorick will not run tests that take over 10 minutes.
+yorick will allocate approximately 1 processor per 2Gb of memory allocated, and allows up to 10Gb of memory
+
