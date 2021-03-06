@@ -1,4 +1,1 @@
-module.exports = function yorick() {
-  console.log('parking')
-}
-
+module.exports = require('./lib/application')

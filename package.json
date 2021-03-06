@@ -2,6 +2,9 @@
   "name": "yorick",
   "version": "0.0.2",
   "description": "test accelerator",
+  "bin": {
+    "yorick": "./bin/yorick"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +20,11 @@
     "infinite",
     "parallel",
     "cloud",
-    "supercomputer"
+    "supercomputer",
+    "jest",
+    "cypress",
+    "puppeteer",
+    "playwright"
   ],
   "author": "Ethan Gregory Clark",
   "license": "MIT",
