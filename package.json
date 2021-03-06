@@ -1,7 +1,7 @@
 {
   "name": "yorick",
   "version": "0.0.2",
-  "description": "infinite test parallelizer",
+  "description": "test accelerator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,11 +11,13 @@
     "url": "git+https://github.com/8balloon/yorick.git"
   },
   "keywords": [
+    "test",
+    "accelerator",
+    "runner",
     "infinite",
     "parallel",
     "cloud",
-    "test",
-    "runner"
+    "supercomputer"
   ],
   "author": "Ethan Gregory Clark",
   "license": "MIT",
