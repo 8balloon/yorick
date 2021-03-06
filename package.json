@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/8balloon/yorick/issues"
   },
-  "homepage": "https://github.com/8balloon/yorick#readme"
+  "homepage": "https://github.com/8balloon/yorick#readme",
+  "dependencies": {
+    "micromatch": "^4.0.2"
+  }
 }
