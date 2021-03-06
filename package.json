@@ -2,9 +2,7 @@
   "name": "yorick",
   "version": "0.0.3",
   "description": "test accelerator",
-  "bin": {
-    "yorick": "./bin/yorick"
-  },
+  "bin": "./bin/yorick",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
