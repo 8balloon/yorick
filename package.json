@@ -31,6 +31,9 @@
   },
   "homepage": "https://github.com/8balloon/yorick#readme",
   "dependencies": {
-    "micromatch": "^4.0.2"
+    "jest": "^26.6.3",
+    "micromatch": "^4.0.2",
+    "mustache": "^4.1.0",
+    "optionator": "^0.9.1"
   }
 }
