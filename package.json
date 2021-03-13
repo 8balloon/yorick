@@ -5,7 +5,7 @@
   "bin": "./bin/yorick",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "yorick:local": "./bin/yorick --run \"echo hello world\" --match \"**/**\""
   },
   "repository": {
     "type": "git",
