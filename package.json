@@ -5,7 +5,7 @@
   "bin": "./bin/yorick",
   "main": "index.js",
   "scripts": {
-    "yorick:local": "./bin/yorick --run \"echo hello world\" --match \"**/**\""
+    "yorick:local": "./bin/yorick"
   },
   "repository": {
     "type": "git",
