@@ -7,7 +7,7 @@ module.exports = async () => {
         name: 'mySuite',
         dockerfile: 'yorick.Dockerfile',
         // runCommand: 'echo {{file}}',
-        runCommand: 'yarn jest {{file}}',
+        runCommand: 'yarn jest {{file}}', // or ({ file }) => string | string[]
         // fileParam: {
         //   match:
         //   ignore:
