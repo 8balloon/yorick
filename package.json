@@ -5,7 +5,8 @@
   "bin": "./bin/yorick",
   "main": "index.js",
   "scripts": {
-    "yorick:local": "./bin/yorick"
+    "yorick:local": "./bin/yorick",
+    "y:d": "docker rm -f yorick-container-mySuite && ECDB=1 yarn yorick:local"
   },
   "repository": {
     "type": "git",
