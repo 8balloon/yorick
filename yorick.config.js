@@ -1,6 +1,34 @@
+/*
 module.exports = async () => {
   return {
-    // mode: 'hybrid', // | 'local' | 'remote' // TODO
+    local: Boolean,
+    remote: ...something else,
+    suites: [
+      {
+        name: String,
+        dockerfile: String,
+        getRunCommands: ({ files }) => [`yarn jest ${files.join(' ')}`],
+        runFiles: {
+          match: [],
+          ignore: [],
+        },
+
+        // this may not be necessary -- we could just send the full diff.
+        syncFiles: {
+          match: [],
+          ignore: [],
+        },
+      },
+    ],
+  }
+}
+*/
+
+module.exports = async () => {
+  return {
+
+    // local: Boolean = true, // TODO
+    // remote: // TODO: some sort of "mode" control
 
     suites: [
       {
