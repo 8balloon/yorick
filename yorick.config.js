@@ -7,6 +7,14 @@ module.exports = async () => {
         name: 'mySuite',
         dockerfile: 'yorick.Dockerfile',
         runCommand: 'echo {{file}}',
+        // fileParam: {
+        //   match:
+        //   ignore:
+        // },
+        // sync: {
+        //   match:
+        //   ignore:
+        // }
         fileParamMatch: ['**/*.test.js'],
         fileParamIgnore: ['**/node_modules/**'],
         syncIgnore: [/* matchers */],
