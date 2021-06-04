@@ -1,3 +1,13 @@
+/* yorick.config.json: (maybe just use CLI instead?)
+{
+  runCommand: `yarn jest {{file}}`,
+  runFiles: {
+    match: String[],
+    ignore: String[],
+  }
+}
+*/
+
 /*
 module.exports = async () => {
   return {
