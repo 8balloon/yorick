@@ -7,7 +7,7 @@ yorick will give you 40 minutes of test-running time across as many as 100 proce
 
 ## directions
 
-1. create a `Dockerfile.yorick`
+1. create a `yorick.Dockerfile`
 
 ```
 FROM node
